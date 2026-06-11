@@ -3,15 +3,15 @@
 ![React](https://img.shields.io/badge/React-19-blue)
 ![Vite](https://img.shields.io/badge/Vite-Latest-purple)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
-![CSS](https://img.shields.io/badge/CSS3-Styling-blue)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.x-38B2AC)
 
-A modern, responsive, and fully functional To-Do Web Application built using React, Vite, JavaScript, and CSS Modules as part of the **SkillCraft Technology Web Development Internship — Task 04**.
+A modern, responsive, and fully functional To-Do Web Application built using React, Vite, JavaScript, and Tailwind CSS as part of the SkillCraft Technology Web Development Internship — Task 04.
 
 TaskFlow Pro helps users create, organize, edit, filter, schedule, and manage daily tasks through a clean, intuitive, and productivity-focused interface.
 
 ---
 
-## 📌 Overview
+## Overview
 
 TaskFlow Pro is a productivity-focused task management application that enables users to:
 
@@ -27,7 +27,7 @@ The application demonstrates practical React development concepts including stat
 
 ---
 
-## 🎯 Internship Details
+## Internship Details
 
 | Field           | Details               |
 | --------------- | --------------------- |
@@ -42,22 +42,18 @@ The application demonstrates practical React development concepts including stat
 
 ---
 
-## 🚀 Features
+## Features
 
-### ✅ Add Tasks
-
-Users can create new tasks by providing:
+### Add Tasks
 
 * Task title
 * Category/List
 * Due date
 * Due time
 
----
+### Organize Tasks into Lists
 
-### 📂 Organize Tasks into Lists
-
-Tasks can be organized into categories such as:
+Categories include:
 
 * General
 * College
@@ -65,9 +61,7 @@ Tasks can be organized into categories such as:
 * Personal
 * Projects
 
----
-
-### ✔ Mark Tasks as Completed
+### Mark Tasks as Completed
 
 Completed tasks display:
 
@@ -75,9 +69,7 @@ Completed tasks display:
 * Reduced opacity
 * Strikethrough title
 
----
-
-### ✏ Edit Tasks
+### Edit Tasks
 
 Users can update:
 
@@ -86,48 +78,34 @@ Users can update:
 * Due date
 * Due time
 
----
+### Date & Time Scheduling
 
-### 🗓 Date & Time Scheduling
-
-Each task can include:
+Tasks can be scheduled using:
 
 * Due Date
 * Due Time
 
-This helps users prioritize and schedule work efficiently.
+### Delete Tasks
 
----
+Remove individual tasks instantly.
 
-### 🗑 Delete Tasks
-
-Individual tasks can be removed instantly.
-
----
-
-### 🧹 Clear Completed Tasks
+### Clear Completed Tasks
 
 Remove all completed tasks with a single click.
 
----
-
-### ❌ Clear All Tasks
+### Clear All Tasks
 
 Delete all tasks after confirmation.
 
----
+### Filter Tasks
 
-### 🔍 Filter Tasks
-
-Filter tasks using:
-
-#### Status Filter
+**Status Filters**
 
 * All Tasks
 * Pending
 * Completed
 
-#### Category Filter
+**Category Filters**
 
 * All Lists
 * General
@@ -136,11 +114,7 @@ Filter tasks using:
 * Personal
 * Projects
 
----
-
-### 📊 Task Statistics
-
-Real-time dashboard showing:
+### Task Statistics
 
 | Metric    | Description         |
 | --------- | ------------------- |
@@ -148,45 +122,74 @@ Real-time dashboard showing:
 | Completed | Completed tasks     |
 | Pending   | Remaining tasks     |
 
----
+### Local Storage Persistence
 
-### 💾 Local Storage Persistence
-
-Tasks remain saved even after:
+Tasks remain available after:
 
 * Refreshing the page
 * Closing the browser
-* Restarting the development server
+* Restarting the application
 
----
+### Responsive User Interface
 
-### 📱 Responsive User Interface
-
-Features:
+Features include:
 
 * Responsive layout
 * Modern card design
+* Mobile-friendly interface
 * Smooth interactions
-* Mobile-friendly experience
 * Clean task organization
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Technology    | Purpose                  |
 | ------------- | ------------------------ |
 | React.js      | Frontend Library         |
 | Vite          | Development & Build Tool |
 | JavaScript    | Application Logic        |
-| CSS Modules   | Component Styling        |
+| Tailwind CSS  | Utility-First Styling    |
 | HTML5         | Structure                |
-| CSS3          | Styling                  |
+| CSS3          | Styling Support          |
 | Local Storage | Data Persistence         |
 
 ---
 
-## 🔧 Installation & Setup
+## Folder Structure
+
+```text
+SCT_WD_4/
+│
+├── public/
+│   ├── favicon.svg
+│   └── icons.svg
+│
+├── src/
+│   ├── components/
+│   │   ├── EditModal.jsx
+│   │   ├── MainArea.jsx
+│   │   ├── Sidebar.jsx
+│   │   └── TaskItem.jsx
+│   │
+│   ├── hooks/
+│   │   └── useTodo.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── index.html
+├── README.md
+└── .gitignore
+```
+
+---
+
+## Installation & Setup
 
 ### Clone Repository
 
@@ -220,12 +223,12 @@ http://localhost:5173/
 
 ---
 
-## 📖 Usage Guide
+## Usage Guide
 
 1. Enter task title.
 2. Select task category.
 3. Choose due date and time.
-4. Click **Add Task**.
+4. Click Add Task.
 5. Mark tasks as completed.
 6. Edit tasks when required.
 7. Delete unwanted tasks.
@@ -235,9 +238,7 @@ http://localhost:5173/
 
 ---
 
-## 📚 Learning Outcomes
-
-Through this project, I improved my understanding of:
+## Learning Outcomes
 
 * React Fundamentals
 * State Management
@@ -252,27 +253,28 @@ Through this project, I improved my understanding of:
 
 ---
 
-## 🔗 Repository
+## Repository
 
 Repository: https://github.com/dk0009-pv/SCT_WD_4
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Dinesh Kumar Pulagalla**
 
-* GitHub: https://github.com/dk0009-pv
-* Repository: SCT_WD_4
+GitHub: https://github.com/dk0009-pv
+
+Repository: SCT_WD_4
 
 ---
 
-## 🙏 Acknowledgement
+## Acknowledgement
 
-This project was developed as part of the **SkillCraft Technology Web Development Internship (Task 04)**.
+This project was developed as part of the SkillCraft Technology Web Development Internship (Task 04).
 
 ---
 
 ## Footer Credit
 
-Built by Dinesh Kumar Pulagalla · SCT WD Task 04
+Built by Dinesh Kumar Pulagalla · SkillCraft Technology Web Development Task 04
