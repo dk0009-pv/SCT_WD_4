@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --accent:  #7c6fff;
+  --accent2: #00d4ff;
+  --green:   #3dd68c;
+  --red:     #ff5c5c;
+  --amber:   #f7c948;
+  --glow:    rgba(124,111,255,0.35);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #070710;
+  color: #e8e8f5;
+  min-height: 100vh;
+  overflow-x: hidden;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.light {
+  background: #f4f4fa;
+  color: #1a1a2e;
+}
+
+::-webkit-scrollbar       { width: 4px; }
+::-webkit-scrollbar-thumb { background: rgba(124,111,255,0.3); border-radius: 4px; }
+
+@keyframes taskIn {
+  from { opacity:0; transform:translateY(-5px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+@keyframes modalIn {
+  from { opacity:0; transform:translateY(16px) scale(0.97); }
+  to   { opacity:1; transform:translateY(0) scale(1); }
+}
+@keyframes shakeAnim {
+  0%,100% { transform:translateX(0); }
+  20%     { transform:translateX(-8px); }
+  40%     { transform:translateX(8px); }
+  60%     { transform:translateX(-5px); }
+  80%     { transform:translateX(5px); }
+}
