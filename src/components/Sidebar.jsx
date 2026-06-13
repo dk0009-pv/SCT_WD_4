@@ -1,4 +1,3 @@
-// src/components/Sidebar.jsx
 import styles from './Todo.module.css'
 
 const CATS = [
