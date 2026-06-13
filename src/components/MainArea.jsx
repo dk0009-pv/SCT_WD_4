@@ -1,4 +1,3 @@
-// src/components/MainArea.jsx
 import { useState } from 'react'
 import TaskItem from './TaskItem'
 import styles   from './Todo.module.css'
