@@ -1,4 +1,3 @@
-// src/components/TaskItem.jsx
 import styles from './Todo.module.css'
 
 const PRI_LABEL = { high:'🔴 High', medium:'⚡ Medium', low:'🟢 Low' }
