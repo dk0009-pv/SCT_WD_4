@@ -1,4 +1,3 @@
-// src/hooks/useTodo.js
 import { useState, useEffect, useCallback, useMemo } from 'react'
 
 const KEY = 'sct_wd4_react'
