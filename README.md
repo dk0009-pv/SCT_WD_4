@@ -1,4 +1,4 @@
-# TaskFlow Pro — Advanced To-Do Web Application
+# TaskFlow — Advanced To-Do Web Application
 
 ![SkillCraft](https://img.shields.io/badge/SkillCraft-Technology-2C2C2C?style=for-the-badge)
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black)
@@ -8,13 +8,13 @@
 
 A modern, responsive, and fully functional To-Do Web Application built using React, Vite, JavaScript, and Tailwind CSS as part of the SkillCraft Technology Web Development Internship — Task 04.
 
-TaskFlow Pro helps users create, organize, edit, filter, schedule, and manage daily tasks through a clean, intuitive, and productivity-focused interface.
+TaskFlow helps users create, organize, edit, filter, schedule, and manage daily tasks through a clean, intuitive, and productivity-focused interface.
 
 ---
 
 ## Overview
 
-TaskFlow Pro is a productivity-focused task management application that enables users to:
+TaskFlow is a productivity-focused task management application that enables users to:
 
 * Create and manage tasks
 * Organize tasks into categories
@@ -39,7 +39,7 @@ The application demonstrates practical React development concepts including stat
 | Task Name       | To-Do Web Application |
 | Repository Name | SCT_WD_4              |
 | Intern ID       | SCT/JUNE26/2530       |
-| Project Name    | TaskFlow Pro          |
+| Project Name    | TaskFlow              |
 
 ---
 
