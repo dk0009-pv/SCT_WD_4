@@ -1,4 +1,3 @@
-// src/components/EditModal.jsx
 import { useState, useEffect } from 'react'
 import styles from './Todo.module.css'
 
